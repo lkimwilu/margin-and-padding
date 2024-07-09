@@ -1,58 +1,34 @@
-let name = "Cate"
+ let color = "black"
+let brand = "Swavroski"
+// string methods ()
+// 1. Length
+// let strLength = brand.length
 
-console.log("her name is", name)
-let isMarried = true
+// // 2. Uppercase
+// let strUpper = brand.toUpperCase()
 
-let a = 2
+// // 3. Character att
+// let charAtIndex = brand.charAt(3)
 
-let sum =null
+// let charAtIndex0 = brand.charAt(10)
 
-let find;
+// console.log(charAtIndex0)
 
-let fruits = [
-    "apple",
-    "banana",
-    "orange",
-    "grapes"
-]
-
-let listOfNumbers = [
-    35,
-    40,
-    278,
-    null
-]
-
-let baraka = {}
+// 4.concat/join
+let jointstring = color.concat(" " , brand)
 
 
-// "" string
-// 12212 number
-// [] array
-// {} object
+// 5. split
+let splittedStr = brand.split('')
 
-let barakaKim = {
-    name: 'baraka',
-    age: 30,
-    favorite: ["dance", "movie", "video"],
-    speaks: true,
-    sayMyName:function(){
-        console.log(`My name is ${this.name}, and my age is ${this.age}`)
-    }
-}
+// slice
+let slicedStr = brand.slice(0, 3)
+ console.log(slicedStr)
 
-console.log("name is", barakaKim.name)
-console.log("favorite is", barakaKim.favorite[1])
 
-let car = {
-    brand: 'lambo',
-    colors: ["red", "white", "gray"],
-    price: 35000,
-    getPrice:function(){
-        console.log(`The price of this car is $${this.price} and the brand is ${this.brand}`)
-    }
-}
-  console.log("car.brand", car.brand)
-console.log("colors", car.colors[2])
-    console.log('get price', car.getPrice)
-    
+
+
+
+
+
+
